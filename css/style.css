@@ -240,7 +240,7 @@ a{
 
 /* jumbotron */
 .jumbotron{
-	background-image: url('../images/bg/bg9.jpg');
+	background-image: url('../images/bg/bg7.jpg');
 	background-position: top;
 	background-size: cover;
 	background-attachment: fixed;
@@ -486,7 +486,7 @@ a{
 
 /* reservation */
 .reservation{
-	background-image: url("../images/bg/bg002.jpg");
+	background-image: url("../images/bg/bg8.jpg");
 	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
