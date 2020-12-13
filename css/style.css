@@ -243,7 +243,9 @@ a{
 	background-image: url('../images/bg/bg7.jpg');
 	background-position: top;
 	background-size: cover;
+	background-repeat: no-repeat;
 	background-attachment: fixed;
+
 	padding-top: 224px;
 	padding-bottom: 160px;
 }
@@ -251,6 +253,9 @@ a{
 	.jumbotron{
 		padding-top: 144px;
 		padding-bottom: 80px;
+		background-size: contain;
+		background-size: auto 80%;
+		/*height: auto;*/
 	}
 }
 .jumbotron .logo-image{
