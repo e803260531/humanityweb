@@ -564,6 +564,7 @@ a{
 	font-size: 18px;
 	line-height: 24px;
 	margin-bottom: 8px;
+	text-align: center;
 }
 .menu-list .list-item .title a{
 	color: #333333;
@@ -571,6 +572,7 @@ a{
 .menu-list .list-item .subtitle{
 	color: #d5a26f;
 	font-size: 14px;
+	text-align: center;
 }
 
 /* contact */
