@@ -101,7 +101,6 @@ a{
 .navbar{
 	height: 64px;
 	background-color: rgba(15,76,129,0.9);
-	/*background-color: #194052;*/
 }
 .logo{
 	display: inline-block;
@@ -117,16 +116,15 @@ a{
 	text-indent: 100%;
 }
 .navbar .menu{
-	float: right;
+	/*float: right;*/
+	display: flex;
+	justify-content: flex-end;
 }
 @media (max-width: 768px){
 	.navbar .menu{
 		visibility: hidden;
 		opacity: 0;
 		transition: all 0.3s;
-
-		/*display: none;*/
-
 		position: fixed;
 		height: 100%;
 		width: 100%;
@@ -141,7 +139,6 @@ a{
 	}
 
 	#popup-menu:target{
-		/*display: block;*/
 		visibility: visible;
 		opacity: 1;
 	}
@@ -206,10 +203,6 @@ a{
 		
 	}
 
-	/*.navbar .menu .close-btn span:first-child{
-		
-	}*/
-
 	.navbar .menu .close-btn span:nth-child(1){
 		transform: translate(-50%,-50%) rotate(45deg);
 	}
@@ -221,12 +214,9 @@ a{
 }
 
 /* Style all font awesome icons */
-.fa {
-  padding: 20px ;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
+.menu-item .fa {
+	width: 50px;
+	font-size: 1.5rem;
 }
 
 
@@ -238,7 +228,11 @@ a{
 /* Set a specific color for each brand */
 
 .big{
-	
+	padding: 20px ;
+	font-size: 30px;
+  	width: 50px;
+  	text-align: center;
+  	text-decoration: none;
 	border-radius: 50%;
 }
 
@@ -282,8 +276,8 @@ a{
 
 /* jumbotron */
 .jumbotron{
-	background-image: url('../images/bg/bg7.jpg');
-	background-position: top;
+	background-image: url('../images/bg/N94063.jpg');
+	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -297,7 +291,6 @@ a{
 		padding-bottom: 80px;
 		background-size: contain;
 		background-size: auto 80%;
-		/*height: auto;*/
 	}
 }
 .jumbotron .logo-image{
@@ -307,7 +300,6 @@ a{
 	background-image: url('../images/common/logo1.png');
 	background-position: bottom;
 	background-size: contain;
-	/*opacity:0.6;*/
 	background-repeat: no-repeat;
 
 }
@@ -336,7 +328,7 @@ a{
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-color: rgba(0,0,0,0.6);
+	background-color: rgba(0,0,0,0);
 }
 
 /* btns */
@@ -423,8 +415,7 @@ a{
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 120%;
-
+	height: 100%;
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -528,7 +519,6 @@ a{
 	margin-bottom: 24px;
 	text-align: justify;
 	height: 72px;
-	/*overflow: hidden;*/
 }
 
 /* reservation */
@@ -666,8 +656,8 @@ a{
 
 /* footer */
 .footer{
-	background-image: url(../images/bg/bg5.jpg);
-	background-position: top;
+	background-image: url(../images/bg/N96062.jpg);
+	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -678,7 +668,7 @@ a{
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-color: rgba(0,0,0,0.8);
+	background-color: rgba(0,0,0,0);
 }
 .footer .logo{
 	width: 240px;
